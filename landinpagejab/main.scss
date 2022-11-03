@@ -1,0 +1,861 @@
+$primary: #5265E1;
+$secundary: #FA5959;
+
+nav{
+    .logoimg{
+        padding: 10%;
+        width: 100%;
+        margin-left: 10px;
+        
+    }
+    .hamburguer{
+        margin-right: 30px;
+    }
+    .botones{
+        display: none;
+    }
+    .login{
+        background-color: #FA5959;
+    }
+
+}
+.row{
+    display: flex;
+   
+    .section1img{
+        width: 100%;
+        padding:5px;
+        position: relative;
+        margin-top: 20px;
+        
+    }
+    .rectangulo1{
+        background-color: $primary;
+        margin-left: 50px;
+        width: 280px; 
+        height: 165px; 
+        margin-top: 25%;
+        border-radius: 150px 0 0 150px;
+        position:absolute;
+        
+        
+        
+        
+    }
+    .section1text{
+        h1{
+            margin-top: 30px;
+            text-align: center;
+            
+        }
+        .p1{
+            text-align: center;
+            padding: 0 40px 0 40px;
+            font-size: small;
+            color: grey;
+        }
+        .get{
+            align-items: center;
+            padding: 10px 10px 10px 10px;
+            border-radius: 5px;
+            box-shadow: 0px 5px 5px 0px rgba(193, 189, 193, 0.333);
+            
+            
+        }
+        .buttonfirefox{
+            background-color: rgba(238, 234, 234, 0.547);
+            
+        }
+        .buttonchrome{
+            align-content: center;
+            margin-left: 20px;
+            background-color: $primary;
+        }
+        
+
+    }
+  
+
+}  
+
+.section2{
+    h2{
+        margin-top: 100px;
+        text-align: center;
+    }
+    .p2{
+        padding: 0 30px 0 30px;
+        color:grey;
+        font-size: small;
+    }
+    .nav-tabs{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        border-top: #FFFFFF;
+        border-right: #FFFFFF;
+        border-left: #FFFFFF;
+        border-bottom: 3px solid red;
+    }
+
+    .active{
+        display: block;
+    }
+    .img-feature{
+        width: 100%;
+        padding:10px;
+        position: relative;
+        margin-top: 50px;
+    }
+    .tab-content{
+        .rectangulo2{
+            background-color: $primary;
+            margin-top: 34%;
+            margin-left:-15px;
+            width: 270px; 
+            height: 165px; 
+            
+            border-radius: 0px 150px 150px 0px;
+            position:absolute;
+        }
+
+    }
+    
+    .p3{
+        padding: 0 20px 0 20px;
+        color:grey;
+        font-size: small;
+        text-align: center;
+    }
+    
+    .secondfeature{
+        padding:  0 20px 0 20px;
+        padding-bottom: 20px;
+    }
+    .more-info{
+        margin-left: 110px;
+        background-color: $primary;
+    }
+}
+.section3{
+    margin-top: 100px;
+    .p3{
+        padding: 0 30px 0 30px;
+        color:grey;
+        font-size: small;
+    }
+    .card-group{
+       
+        .card{
+            margin-top: 25px;
+            margin-left: 45px;
+            display: flex;
+            
+            
+            
+
+            box-shadow: 0px 5px 5px 0px rgba(193, 189, 193, 0.333);
+            border-top: #FFFFFF;
+            border-right: #FFFFFF;
+            border-left: #FFFFFF;
+
+            .card-img-top{
+                width: 35%;
+                display: flex;
+                align-items: center;
+                margin-left: 80px;
+                margin-top: 40px;
+                margin-bottom: 20px;
+            }
+            
+            .installbutton{
+                background-color: $primary;
+            }
+        }
+        
+        
+    }
+    
+}
+.section4{
+    margin-top: 100px;
+    .p3{
+        padding: 0 30px 0 30px;
+        color:grey;
+        font-size: small;
+    }
+    .textasked{
+        padding: 20px;
+    }
+    .more-info-button-2{
+        align-items: center;
+        margin-bottom: 50px;
+        background-color: $primary;
+    }
+}
+
+@media only screen and (min-width: 490px) and (max-width: 767px){
+    .section1{
+        
+        .section1img{
+        width: 90%; 
+        margin-left: auto;
+    }
+        .rectangulo1{
+        width: 100%;
+        height: 60%;
+        margin-left: 100px;
+    }
+    .section1text{
+        
+        .buttonchrome{
+            align-items: center;
+            margin-left: 120px;
+        }
+        .buttonfirefox{
+            align-items: center;
+        }
+      }
+    
+    }
+    .section2{
+        .seccionfeatureimg{
+            .img-feature{
+               
+                align-content: center;
+            }
+            .rectangulo2{
+                height:30%;
+                width: 80%;
+                right: 150px;
+                
+            }
+        }
+       .seccionfeaturetext{
+        padding: 0 70px 0 70px;
+        .more-info{
+            margin-left: 140px;
+        }
+       }
+    }
+    .section3{
+        .p3{
+            padding: 0 14px 0 14px;        }
+        .card-group{
+           
+            margin-left: 85px;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 943px){
+   nav{
+    .logoimg{
+        width: 100%;
+        padding: 0 0 0 100px;
+        
+    }
+    .hamburguer{
+        display: none;
+    }
+    .botones{
+        display: block;
+        display: flex;
+        list-style: none;
+        gap: 20px;
+    }
+    
+   }
+   
+   
+    .section1{
+        display: flex;
+        flex-direction: row-reverse;
+        .section1img{
+            width:50%;
+            .img1{
+                width: 100%;
+            }
+            .rectangulo1{
+                width: 106%;
+            }
+        }
+        .section1text{
+            width: 50%;
+            h1{
+                text-align: left;
+            }
+            .p1{
+                text-align: left;
+                padding: 0 100px 0 0;
+            }
+            .buttonchrome{
+                margin-left: 0;
+            }
+        }
+    }
+
+    .section2{
+        .tabtext{
+            padding: 0 90px 0 90px;
+        }
+        .nav-tabs{
+            display: flex;
+            flex-direction: row;
+            margin-left: 130px;
+        }
+        
+        .tab-content{
+            padding: 0;
+            #nav-bookmarking{
+                display: flex;
+                .img-feature{
+                    top: 30px;
+                    width: 130%;
+                    padding: 0;
+                }
+                .rectangulo2{
+                    position: absolute;
+                    top: 450px;
+                    right: 500px;
+                    width: 45%;
+                    height: 25%;
+                }
+            }
+            .seccionfeaturetext{
+                
+                h2{
+                    
+                    text-align: left;
+                    padding: 0 0 0 100px;
+                }
+                p{
+                    text-align: left;
+                    padding: 0 60px 0 100px;
+                }
+            }
+            
+        }
+       
+    }
+    .section3{
+        
+        .extensiontext{
+            .p3{
+                padding: 0 150px;
+            }
+        }
+        .card-group{
+           
+            .col{
+                display: flex;
+                .card1{
+                    right:100px;
+                }
+                .card2{
+                    right:100px;
+                    top: 50px;
+                }
+                .card3{
+                    right:100px;
+                    top:100px;
+                }
+            }
+           
+        }
+        
+    }
+    .section4{
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (min-width: 944px) and (max-width: 990px){
+    nav{
+       
+        .logoimg{
+            width: 80%;
+            margin-top: 20px;
+            margin-left: 55px;
+        }
+        .hamburguer{
+            display: none;
+        }
+        ul{
+            padding-left: 150px;
+        }
+        .botones{
+            margin-top: 50px;
+            display: inline-flex;
+            list-style: none;
+            gap: 20px;
+        }
+    }
+    .section1{
+        display: flex;
+        flex-direction: row-reverse;
+        .section1img{
+            width: 45%;
+            .img1{
+                width: 125%;
+            }
+            .rectangulo1{
+                width: 110%;
+                height: 65%;
+                left: 40px;
+            }
+        }
+        .section1text{
+            width:55%;
+            margin-top:40px;
+            
+           
+            
+            h1{
+                text-align: left;
+                padding: 0;
+                
+            }
+            .p1{
+                text-align: left;
+                padding: 0 0px 0 0 ; 
+            }
+            .buttonchrome{
+                margin-left: 0;
+            }
+        }
+    }
+   .section2{
+    
+    .nav-tabs{
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px ;
+    }
+    .tab-content{
+        .p2{
+            padding: 0 165px;
+        }
+    }
+    .tab-content{
+        padding: 0;
+        #nav-bookmarking{
+            display: flex;
+            width: 100%;
+            .img-feature{
+                top: 30px;
+                width: 100%;
+                padding: 0;
+                
+            }
+            .rectangulo2{
+                position: absolute;
+                right:550px;
+                top: 530px;
+                width: 43%;
+                height: 30%;
+            }
+        }
+        .seccionfeaturetext{
+            width: 100%;
+            padding: 0 0 0 50px;
+            
+            h2{
+                
+                text-align: left;
+                padding: 0px 0 0 0px;
+            }
+            p{
+                text-align: left;
+                padding: 0 30px 0 0;
+            }
+            .more-info{
+                margin-left: 0;
+            }
+        }
+        
+    }
+   }
+   .section3{
+   
+    .extensiontext{
+        
+        h2{
+            padding-top: 100px;
+        }
+        p{
+            padding: 0 150px;
+        }
+    }
+    .card-group{
+        
+        margin-right: 100px;
+        .col{
+            display: flex;
+        flex-direction: row;
+        .card1{
+            right: 100px;
+        }
+        .card2{
+            top: 50px;
+            right: 100px;
+        }
+        .card3{
+            top: 100px;
+            right: 100px;
+        }
+        }
+    }
+   }
+
+   .section4{
+    padding: 150px 100px 0 100px;
+    h2{
+        text-align: center;
+    }
+    .p3{
+        text-align: center;
+        padding: 0 65px;
+        
+    } 
+    .accordion-item{
+       text-align: left;
+    }
+    .more-info-button-2{
+        margin-top: 20px;
+    }
+ }
+   
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px){
+    nav{
+       
+        .logoimg{
+            width: 80%;
+            margin-top: 20px;
+            margin-left: 100px;
+        }
+        .hamburguer{
+            display: none;
+        }
+        ul{
+            padding-left: 200px;
+        }
+        .botones{
+            margin-top: 50px;
+            display: inline-flex;
+            list-style: none;
+            gap: 20px;
+        }
+    }
+    .section1{
+        display: flex;
+        flex-direction: row-reverse;
+        .section1img{
+            width: 45%;
+            .img1{
+                width: 125%;
+                right: 50px;
+            }
+            .rectangulo1{
+                width: 110%;
+                height: 65%;
+                
+            }
+        }
+        .section1text{
+            width:55%;
+            margin-top:40px;
+            
+           
+            
+            h1{
+                text-align: left;
+                padding: 0;
+                
+            }
+            .p1{
+                text-align: left;
+                padding: 0 150px 0 0 ; 
+            }
+            .buttonchrome{
+                margin-left: 0;
+            }
+        }
+    }
+   .section2{
+    
+    .nav-tabs{
+        display: flex;
+        flex-direction: row;
+        margin-left: 200px;
+        margin-right: 250px;
+    }
+    .tab-content{
+        .p2{
+            padding: 0 285px;
+        }
+    }
+    .tab-content{
+        padding: 0;
+        #nav-bookmarking{
+            display: flex;
+            width: 100%;
+            .img-feature{
+                top: 30px;
+                width: 100%;
+                padding: 0;
+                
+            }
+            .rectangulo2{
+                position: absolute;
+                right:65%;
+                top: 590px;
+                width: 43%;
+                height: 35%;
+            }
+        }
+        .seccionfeaturetext{
+            width: 100%;
+            padding: 0 0 0 50px;
+            
+            h2{
+                
+                text-align: left;
+                padding: 0px 0 0 0px;
+            }
+            p{
+                text-align: left;
+                padding: 0 230px 0 0;
+            }
+            .more-info{
+                margin-left: 0;
+            }
+        }
+        
+    }
+   }
+   .section3{
+   
+    .extensiontext{
+        
+        h2{
+            padding-top: 100px;
+        }
+        p{
+            padding: 0 280px;
+        }
+    }
+    .card-group{
+        
+        
+        .col{
+            display: flex;
+        flex-direction: row;
+        
+        .card2{
+            top: 50px;
+            
+        }
+        .card3{
+            top: 100px;
+            
+        }
+        }
+    }
+   }
+
+   .section4{
+    padding: 150px 100px 0 100px;
+    h2{
+        text-align: center;
+    }
+    .p3{
+        text-align: center;
+        padding: 0 180px;
+        
+    } 
+    .accordion{
+        padding: 0 150px;
+        .accordion-item{
+       text-align: left;
+       
+    }
+    }
+    
+    .more-info-button-2{
+        margin-top: 20px;
+    }
+ }
+   
+}
+@media only screen and (min-width: 1201px){
+    nav{
+       
+        .logoimg{
+            width: 80%;
+            margin-top: 20px;
+            margin-left: 100px;
+        }
+        .hamburguer{
+            display: none;
+        }
+        ul{
+            padding-left: 200px;
+        }
+        .botones{
+            margin-top: 50px;
+            display: inline-flex;
+            list-style: none;
+            gap: 20px;
+        }
+    }
+    .section1{
+        display: flex;
+        flex-direction: row-reverse;
+        .section1img{
+            width: 45%;
+            .img1{
+                width: 100%;
+                right: 50px;
+            }
+            .rectangulo1{
+                width: 110%;
+                height: 65%;
+                
+            }
+        }
+        .section1text{
+            width:55%;
+            margin-top:40px;
+            padding-left: 80px;
+            
+           
+            
+            h1{
+                text-align: left;
+                padding: 0 100px 0 0;
+                
+            }
+            .p1{
+                text-align: left;
+                padding: 0 180px 0 0 ; 
+            }
+            .buttonchrome{
+                margin-left: 0;
+            }
+        }
+    }
+   .section2{
+    
+    .nav-tabs{
+        display: flex;
+        flex-direction: row;
+        margin-left: 300px;
+        margin-right: 250px;
+       
+    }
+    .tab-content{
+        .p2{
+            padding: 0 285px;
+        }
+    }
+    .tab-content{
+        padding: 0;
+        #nav-bookmarking{
+            display: flex;
+            width: 100%;
+            .img-feature{
+                top: 30px;
+                width: 110%;
+                padding: 0;
+                left: 100px;
+                
+            }
+            .rectangulo2{
+                position: absolute;
+                right:65%;
+                top: 500px;
+                width: 55%;
+                height: 35%;
+            }
+        }
+        .seccionfeaturetext{
+            width: 100%;
+            padding: 0 0 0 50px;
+            margin-left: 150px;
+            
+            
+            h2{
+                
+                text-align: left;
+                padding: 0px 0 0 0px;
+                
+            }
+            p{
+                text-align: left;
+                padding: 0 290px 0 0;
+            }
+            .more-info{
+                margin-left: 0;
+            }
+        }
+        
+    }
+   }
+   .section3{
+   
+    .extensiontext{
+        
+        h2{
+            padding-top: 100px;
+        }
+        p{
+            padding: 0 370px;
+        }
+    }
+    .card-group{
+        
+        
+        .col{
+            display: flex;
+        flex-direction: row;
+        
+        .card2{
+            top: 50px;
+            left: 70px;
+            
+        }
+        .card3{
+            top: 100px;
+            
+        }
+        }
+    }
+   }
+
+   .section4{
+    padding: 150px 190px 0 190px;
+    h2{
+        text-align: center;
+    }
+    .p3{
+        text-align: center;
+        padding: 0 180px;
+        
+    } 
+    .accordion{
+        padding: 0 150px;
+        .accordion-item{
+       text-align: left;
+       
+    }
+    }
+    
+    .more-info-button-2{
+        margin-top: 20px;
+    }
+ }
+}

@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Landin Page</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css" />
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+  </header>
+  <main>  
+    <!--Navegador-->
+    <nav class="navbar">
+        <div class="imagen">
+            <a class="navbar-brand" href="Imagenes/logo-bookmark.svg">
+            <img class="logoimg" src="Imagenes/logo-bookmark.svg"/> 
+           </a>
+        </div>
+        <div class="enlaces">
+            <ul class="botones">
+                <li class="nav-item">
+                    <a href="#" class="nav-menu-link nav-link">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-menu-link nav-link">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-menu-link nav-link">Contact</a>
+                </li>
+                <button class="btn btn-default btn-primary login">
+                    <a href="#" class="nav-menu-link nav-link">Login</a>
+                </button>
+              </ul>
+        </div>
+        <div class="burguer">
+            <img class="hamburguer" src="Imagenes\icon-hamburger.svg">
+        </div>
+    </nav>
+    <!--primera seccion-->
+    <div class="container">
+    <section class="row section1">
+        <div class="section1img">
+            <div class="rectangulo1"></div>
+            <img class="section1img img1" src="Imagenes\illustration-hero.svg"/>
+            
+        </div>
+        <div class="section1text">
+            <h1><strong>A Simple Bookmark Manager</strong></h1>
+            <p class="p1">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+            <button class="btn btn-primary get buttonchrome">Get it on Chrome</button>
+            <button class="btn get buttonfirefox">Get it on Firefox</button>
+        </div> 
+    </section>
+  </div>
+
+    <!--segunda seccion-->
+    <div class="container">
+    <section class="section2">
+        <!--Primera caja con titulo y tab-->
+        <div class="tab-content tabtext">
+            <h2>Features</h2>
+            <p class="text-center p2">Our aim is to make it quick and easy for you to access your favourite websites Your bookmarks sync between your devices so you can access them on the go.</p>
+        </div>
+        
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-bookmarking-tab" data-bs-toggle="tab" data-bs-target="#nav-bookmarking" 
+            type="button" role="tab" aria-controls="nav-bookmarking" aria-selected="true">Simple Bookmarking</button>
+    
+            <button class="nav-link" id="nav-searching-tab" data-bs-toggle="tab" data-bs-target="#nav-searching" 
+            type="button" role="tab" aria-controls="nav-searching" aria-selected="false">Speedy Searching</button>
+    
+            <button class="nav-link" id="nav-sharing-tab" data-bs-toggle="tab" data-bs-target="#nav-sharing" 
+            type="button" role="tab" 
+            aria-controls="nav-sharing" aria-selected="false">Easy Sharing</button>
+          </div>
+          <!--Segunda caja con tab-content-->
+          <div class="tab-content row">
+            <div class="tab-pane show active fade p-3" id="nav-bookmarking" role="tabpanel"
+            aria-labelledby="nav-bookmarking-tab">
+            <div class="seccionfeatureimg">
+                <div class="rectangulo2"></div>
+                <img class="img-feature" src="Imagenes/illustration-features-tab-1-original.svg"/>
+            </div>
+            <div class="seccionfeaturetext">
+                <h2 class="oneclick">Bookmark In One Click</h2>
+                <p class="p3">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you a complete control over how you manage your favourite sites.</p>
+                <button class="btn btn-primary more-info" type="button">More Info</button>
+            </div>
+            </div>
+            
+        
+    </section>
+  </div>
+    <!--Seccion Cards-->
+    <div class="container">
+    <section class="section3">
+        <div class="extensiontext">
+            <h2 class="text-center">Dowload the extension</h2>
+            <p class="p3 text-center">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
+        </div>
+        <div class="row card-group">
+         <div class="col">
+         <div class="card text-center col-sm-4 card1" style="width: 15rem;">
+             <img class="card-img-top" src="Imagenes/logo-chrome.svg" alt="Card image cap">
+             <div class="card-body">
+              <h5 class="card-title">Add to Chrome</h5>
+              <p class="card-text p3">Minimun version 62</p>
+              <img src="Imagenes/bg-dots.svg" style="width: 14rem">
+              <a href="#" class="btn btn-primary installbutton">Add & Install Extension</a>
+          </div>
+          </div>
+          
+          <div class="col">
+         <div class="card text-center card2" style="width: 15rem;">
+            <img class="card-img-top" src="Imagenes/logo-firefox.svg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Add to Firefox</h5>
+              <p class="card-text p3">Minimun version 55</p>
+              <img src="Imagenes/bg-dots.svg" style="width: 14rem">
+              <a href="#" class="btn btn-primary installbutton">Add & Install Extension</a>
+            </div>
+            </div>
+          </div>
+          <div class="col">
+         <div class="card text-center card3" style="width: 15rem;">
+            <img class="card-img-top" src="Imagenes/logo-opera.svg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Add to Opera</h5>
+              <p class="card-text p3">Minimun version 46</p>
+              <img src="Imagenes/bg-dots.svg" style="width: 14rem">
+              <a href="#" class="btn btn-primary installbutton">Add & Install Extension</a>
+            </div>
+          </div>
+          </div>
+        </div>
+        
+    </section>
+    </div>
+    <!--Accordion for FAQs-->
+    <div class="container">
+    <section class="section4">
+        <div>
+            <h2 class="text-center textasked">Frequently Asked Questions</h2>
+            <p class="p3 text-center">Here are some of our FAQs. If you have any other questions you'd like to answered please feel free to email us.</p>
+        </div>
+        <div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      What is Bookmark?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolorem dicta, dignissimos doloremque id quam, provident rem, fuga laboriosam earum harum vel maxime. Nobis aliquid pariatur ex quam? Praesentium, quaerat.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      How can I request a new browser?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, doloremque fuga! Facilis placeat iste id totam corporis aspernatur vitae iusto, possimus at dicta! Veniam blanditiis ullam quod commodi tempore assumenda.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Is there a mobile app?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptatum sapiente nisi quo dolor odit, odio quisquam dolorum quam ad eligendi dicta et natus molestiae explicabo vitae distinctio accusantium ratione!</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        What about other Chromium browsers?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda molestias quasi exercitationem architecto natus, quae nam quos libero fuga fugit ex, facere eaque. Voluptate ut dignissimos magnam, inventore architecto explicabo!</div>
+                    </div>
+                  </div>
+              </div> 
+            <div class="text-center">
+            <button class="btn btn-default btn-primary more-info-button-2">More Info</button>
+          </div></div>
+      </div>
+        </div>
+        </div>
+    </section>
+    </div>
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
